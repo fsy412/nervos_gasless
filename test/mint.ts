@@ -4,7 +4,7 @@ import { ERC20Token } from '../typechain-types/contracts/ERC20.sol'
 import { hexConcat } from 'ethers/lib/utils'
 import { expect } from "chai";
 
-describe('#approve', function () {
+describe('#Mint', function () {
     const ENTRYPOINT_CONTRACT_ADDRESS = '0x791ec459f57362256f313F5512bDB9F6d7Cae308'
     const PAYMASTER_SUCCESS_CONTRACT_ADDRESS = '0xdE3ceF77F68f3a137721bBEFec2d7edea6903A09'
     const ERC20_CONTRACT_ADDRESS = '0xC84ab95759a4659D4C55F79489be8f55898b51b7'
